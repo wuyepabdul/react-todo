@@ -23,11 +23,22 @@
   background: white;
 }
 
+.list-todos-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .list-todos {
+  width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+.list-input-group {
+  align-items: center;
+  width: 100%;
 }
 
 .add-input-form {
@@ -44,6 +55,7 @@
 .input-field {
   padding: 10px 15px;
   border: none;
+  width: 100%;
 }
 
 .add-input-field:focus-visible,

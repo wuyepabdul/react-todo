@@ -20,11 +20,11 @@ const ListTodos = () => {
     <div>
       {console.log(todos)}
       {todos.map((todo) => (
-        <div key={todo.id}>
+        <div className="list-todos-container" key={todo.id}>
           <form className="list-todos d-flex">
-            <div><input type="checkbox" name="mark" id="mark" /></div>
-            <div className="input-group">
-              <input type="text" className="input-field" name="todo" id="todo" placeholder={todo.title} readOnly />
+            <div className="list-input-group d-flex">
+              <div><input type="checkbox" name="mark" id="mark" /></div>
+              <input type="text" className="input-field" name="todo" id="todo" value={todo.title} />
             </div>
             <div><i className="fas fa-trash" /></div>
           </form>
