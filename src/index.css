@@ -8,6 +8,10 @@
   display: flex;
 }
 
+.fa-trash {
+  color: red;
+}
+
 .todo-container {
   background: rgba(84, 216, 209, 0.753);
   display: grid;
@@ -20,7 +24,10 @@
 }
 
 .list-todos {
-  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .add-input-form {
@@ -33,11 +40,13 @@
   border-radius: 10px;
 }
 
-.add-input-field {
+.add-input-field,
+.input-field {
   padding: 10px 15px;
   border: none;
 }
 
-.add-input-field:focus-visible {
+.add-input-field:focus-visible,
+.input-field:focus-visible {
   outline: none;
 }

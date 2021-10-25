@@ -19,12 +19,18 @@ const ListTodos = () => {
   return (
     <div>
       {console.log(todos)}
-      <form className="list-todos">
-        <div><input type="checkbox" name="mark" id="mark" /></div>
-        <div className="input-group">
-          <input type="text" className="input-field" name="todo" id="todo" />
+      {todos.map((todo) => (
+        <div key={todo.id}>
+          <form className="list-todos d-flex">
+            <div><input type="checkbox" name="mark" id="mark" /></div>
+            <div className="input-group">
+              <input type="text" className="input-field" name="todo" id="todo" placeholder={todo.title} readOnly />
+            </div>
+            <div><i className="fas fa-trash" /></div>
+          </form>
+          <hr />
         </div>
-      </form>
+      ))}
     </div>
   );
 };
