@@ -12,6 +12,11 @@
   color: red;
 }
 
+.todo-header {
+  color: rgb(218, 214, 214);
+  font-size: 100px;
+}
+
 .todo-container {
   background: rgba(84, 216, 209, 0.753);
   display: grid;

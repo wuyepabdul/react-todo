@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => (
   <div>
-    todos Header
+    <h1 className="todo-header">todos</h1>
   </div>
 );
 
