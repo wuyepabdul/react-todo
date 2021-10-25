@@ -3,3 +3,41 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.todo-container {
+  background: rgba(84, 216, 209, 0.753);
+  display: grid;
+  grid-template-columns: 20% 80%;
+  text-align: center;
+}
+
+.todos {
+  background: white;
+}
+
+.list-todos {
+  display: flex;
+}
+
+.add-input-form {
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 4px 0px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.add-input-field {
+  padding: 10px 15px;
+  border: none;
+}
+
+.add-input-field:focus-visible {
+  outline: none;
+}
