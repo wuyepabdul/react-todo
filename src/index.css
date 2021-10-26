@@ -8,6 +8,10 @@
   display: flex;
 }
 
+.completed {
+  text-decoration: line-through;
+}
+
 .fa-trash {
   color: red;
 }
