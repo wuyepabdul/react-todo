@@ -1,10 +1,11 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 const AddTodo = ({ addNewTodo, todos }) => {
   const [todoItem, setTodoItem] = useState(
     {
-      id: 0,
+      id: uuidv4(),
       title: '',
       completed: false,
     },
@@ -12,7 +13,6 @@ const AddTodo = ({ addNewTodo, todos }) => {
 
   const handleChange = (e) => {
     e.preventDefault();
-    console.log(e.target.value);
     setTodoItem({
       ...todoItem,
       title: e.target.value,

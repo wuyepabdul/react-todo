@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/interactive-supports-focus */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 
@@ -15,10 +14,15 @@ const TodoItem = ({
 
   const setClassName = (todo) => `input-field ${todo.completed && 'completed'}`;
 
+  const handleOnKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+    }
+  };
+
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
       e.preventDefault();
-      console.log(e.key);
       setEditState(!editState);
     }
   };
@@ -54,6 +58,7 @@ const TodoItem = ({
             aria-label="c"
             className="fas fa-trash"
             onClick={() => deleteTodo(todo, todos)}
+            onKeyDown={() => handleOnKeyDown}
           />
           {' '}
         </div>
