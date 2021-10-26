@@ -103,9 +103,9 @@
 
 .about-links {
   width: 50%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   list-style: none;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0;
 }
 
@@ -116,7 +116,6 @@
 .about__content {
   padding: 2rem 40px;
   flex-direction: column;
-  background: lemonchiffon;
   width: 100%;
 }
 

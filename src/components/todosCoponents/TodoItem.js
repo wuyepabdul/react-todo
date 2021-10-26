@@ -34,10 +34,7 @@ const TodoItem = ({
             <input
               type="checkbox"
               name="mark"
-              onChange={(e) => {
-                e.preventDefault();
-                handleChange(todo, todos);
-              }}
+              onChange={() => handleChange(todo)}
               checked={todo.completed}
             />
           </div>

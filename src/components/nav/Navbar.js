@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { NavLink, useRouteMatch } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi';
 
 const Navbar = () => {
-  const { url, path } = useRouteMatch();
   const [navbarOpen, setNavbarOpen] = useState(false);
   const links = [
     {
@@ -29,7 +28,6 @@ const Navbar = () => {
 
   return (
     <nav className={`navBar ${navbarOpen && 'nav-background'}`}>
-      {console.log(url, path)}
       <div className="menu-container">
         <button type="button" onClick={handleToggle}>
           {navbarOpen ? (
