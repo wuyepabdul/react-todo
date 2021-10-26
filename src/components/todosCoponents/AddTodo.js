@@ -24,7 +24,7 @@ const AddTodo = ({ addNewTodo, todos }) => {
         <div className="input-group">
           <input type="text" className="add-input-field" name="todo" id="todo" onChange={handleChange} placeholder="Add todo ..." />
         </div>
-        <div className="input-group">
+        <div>
           <button type="submit" onClick={(e) => addNewTodo(e, todoItem, todos)} className="add-btn" name="todo" id="todo"> +</button>
         </div>
       </form>

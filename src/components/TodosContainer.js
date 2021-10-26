@@ -60,7 +60,7 @@ const TodosContainer = () => {
     }));
   };
   return (
-    <div>
+    <div className="todo-container">
       <Header />
       <AddTodo addNewTodo={addNewTodo} todos={todos} />
       <ListTodos todos={todos} setTodos={setTodos} handleChange={setCheck} editTodo={editTodo} deleteTodo={deleteTodo} />
