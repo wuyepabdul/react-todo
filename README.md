@@ -10,23 +10,26 @@
 
 ## Screenshots
 
-<img src="./src/images/calculator1.png">
+<img src="./src/images/todo.png">
+<img src="./src/images/todo1.png">
+<img src="./src/images/todo2.png">
 
 
 ## Live Demo
 
-[Live Demo Link](https://wuyepabdul.github.io/math-magician/)
+[Live Demo Link](https://wuyepabdul.github.io/react-todo/)
 
 
 ## Built With
 
 - CSS
 - JS
+- React
 
 ## Getting Started
 
 **To clone this project**
-**Run command: $git clone https://github.com/wuyepabdul/math-magician.git**
+**Run command: $git clone https://github.com/wuyepabdul/react-todo.git**
 **or press the green Code button in the upper right corner and choose to download from the Download ZIP link.**
 
 ### Prerequisites
@@ -48,7 +51,7 @@ npm run test
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/wuyepabdul/math-magician.git/issues).
+Feel free to check the [issues page](https://github.com/wuyepabdul/react-todo.git/issues).
 
 ## Show your support
 
