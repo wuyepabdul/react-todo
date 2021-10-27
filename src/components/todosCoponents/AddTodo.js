@@ -31,7 +31,7 @@ const AddTodo = ({ addNewTodo }) => {
   return (
     <div className="add-todos">
       <form onSubmit={handleSubmit} className="add-input-form d-flex">
-        <div className="add-input-container">
+        <div className="input-group">
           <input type="text" className="add-input-field" name="todo" id="todo" onChange={handleChange} placeholder="Add todo ..." />
         </div>
         <div>

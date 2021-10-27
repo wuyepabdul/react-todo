@@ -14,14 +14,6 @@ const About = () => {
           <Link to={`${url}/about-author`}>About Author</Link>
         </li>
       </ul>
-      <Route exact path="/about">
-        {' '}
-        <div className="single-page">
-          <h1>About Page</h1>
-        </div>
-        {' '}
-
-      </Route>
       <Route exact path={`${path}/:slug`}>
         <SinglePage />
       </Route>
