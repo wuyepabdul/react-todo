@@ -70,7 +70,6 @@
 
 .list-todos-container {
   width: 50%;
-  /* margin: 0 auto; */
 }
 
 .list-todos {
@@ -89,9 +88,8 @@
 .add-input-form {
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 0px 4px 0px;
+  box-shadow: 0 0 4px 0;
   width: 50%;
-  /* margin: 0 auto; */
   padding: 0 10px;
   border-radius: 10px;
 }
@@ -110,7 +108,6 @@
 
 .about-links {
   width: 50%;
-  /* margin: 0 auto; */
   list-style: none;
   justify-content: space-between;
   padding: 0;

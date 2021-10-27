@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Navbar from './components/nav/Navbar';
 import TodosContainer from './components/TodosContainer';
 import About from './pages/About';
-// import NotMatch from './pages/NotMatch';
+import NotMatch from './pages/NotMatch';
 
 const App = () => (
   <div className="d-flex">
@@ -15,9 +15,9 @@ const App = () => (
       <Route path="/about">
         <About />
       </Route>
-      {/*   <Route path="*">
+      <Route path="*">
         <NotMatch />
-      </Route> */}
+      </Route>
     </Switch>
   </div>
 

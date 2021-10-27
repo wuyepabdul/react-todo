@@ -17,6 +17,7 @@ const About = () => {
       <Route exact path={`${path}/:slug`}>
         <SinglePage />
       </Route>
+
     </div>
   );
 };
