@@ -57,6 +57,13 @@
   align-items: flex-start;
 }
 
+.add-btn {
+  background: inherit;
+  border: none;
+  font-size: 20px;
+  color: green;
+}
+
 .todos {
   background: white;
 }
